@@ -6,7 +6,7 @@
 const TOKEN = process.env.TELEGRAM_TOKEN || '779188102:AAEGPEYZZYy5un3GVpnFH3xMGYuyHxzHBKM';
 const gameName = process.env.TELEGRAM_GAMENAME || 'DavayUbiray';
 // Specify '0' to use ngrok i.e. localhost tunneling
-let url = process.env.URL || 'https://github.com/AgroGus/DavayUbiray>';
+let url = process.env.URL || 'https://github.com/AgroGus/DavayUbiray';
 const port = process.env.PORT || 8080;
 
 const TelegramBot = require('../..');
